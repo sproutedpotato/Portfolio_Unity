@@ -46,7 +46,7 @@ FPS, 메트로배니아, 플랫포머, 수집형RPG(UI) 등 여러 장르의 프
   - FSM상태 머신을 통한 플레이어 상태 관리
   - FSM상태 머신을 통한 몬스터 상태 관리
   - AR과 유니티 연동
- <img src="https://github.com/arena5045/Portfolio_Code/assets/64789660/02bf43dd-ad88-4bd6-8b37-b3bf86cceac0" width="474" height="256" alt="전선지휘 게임플레이"  />
+ <img src="Images/11.png" width="50%" alt="시작 화면">
     
 - **고민한 점 & 배운 점**
   - **[거리 기반 삭제 처리 및 한계점 파악]**
@@ -75,7 +75,11 @@ FPS, 메트로배니아, 플랫포머, 수집형RPG(UI) 등 여러 장르의 프
   - 공격 및 발판 역할을 겸하는 차크람 기믹
   - 스테이지를 클리어 할 때마다 진행되는 스토리
   - 천일야화 이야기의 컨셉을 살린 몬스터와 보스
- <img src="https://github.com/arena5045/Portfolio_Code/assets/64789660/02bf43dd-ad88-4bd6-8b37-b3bf86cceac0" width="474" height="256" alt="전선지휘 게임플레이"  />
+ <img src="Images/1 (2).jpg" width="50%" alt="시작 화면">
+ <img src="Images/2 (2).jpg" width="50%" alt="시작 화면">
+ <img src="Images/3 (1).jpg" width="50%" alt="시작 화면">
+ <img src="Images/4 (1).gif" width="50%" alt="시작 화면">
+ <img src="Images/5.jpg" width="50%" alt="시작 화면">
     
 - **고민한 점 & 배운 점**
   - [LayerMask 및 ContactFilter2D를 활용한 충돌/발판 판정]
@@ -101,8 +105,10 @@ FPS, 메트로배니아, 플랫포머, 수집형RPG(UI) 등 여러 장르의 프
   - 캐릭터 뽑기(가챠) / 캐릭터 강화 / 캐릭터 관리
   - UI 설정, 프로필 관리
   - SQLite를 통한 플레이어 정보 관리
- <img src="https://github.com/arena5045/Portfolio_Code/assets/64789660/02bf43dd-ad88-4bd6-8b37-b3bf86cceac0" width="474" height="256" alt="전선지휘 게임플레이"  />
-    
+ <img src="Images/1.jpg" width="50%" alt="시작 화면">
+ <img src="Images/2.jpg" width="50%" alt="시작 화면">
+ <img src="Images/3.jpg" width="50%" alt="시작 화면">
+ <img src="Images/11.gif" width="50%" alt="시작 화면">
 - **고민한 점 & 배운 점**
   -[가중치 랜덤 알고리즘 기반 가챠 시스템 구현]
     단순 단순 난수(Random.Range) 방식의 한계를 극복하고자 각 아이템 등급에 가중치(Weight)를 부여하고,
@@ -121,7 +127,9 @@ FPS, 메트로배니아, 플랫포머, 수집형RPG(UI) 등 여러 장르의 프
   - 원활한 조작감 : 이동, 점프
   - 적대적 유닛과 함정 및 체력 회복용 과일
   - Cinemachine을 통한 부드러운 카메라 움직임
- <img src="https://github.com/arena5045/Portfolio_Code/assets/64789660/02bf43dd-ad88-4bd6-8b37-b3bf86cceac0" width="474" height="256" alt="전선지휘 게임플레이"  />
+ <img src="Images/1 (1).jpg" width="50%" alt="시작 화면">
+ <img src="Images/2 (1).jpg" width="50%" alt="시작 화면">
+ <img src="Images/5 (1).gif" width="50%" alt="시작 화면">
     
 - **고민한 점 & 배운 점**
   -[물리 엔진 의존성 탈피를 통한 조작감 개선]
