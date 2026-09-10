@@ -68,7 +68,7 @@ FPS, 메트로배니아, 플랫포머, 수집형RPG(UI) 등 여러 장르의 프
 <summary><b>[소스 코드] (클릭하여 열기)</b></summary>
 <div markdown="1">
 
-- 11
+- [Code](https://github.com/sproutedpotato/Portfolio_Unity/tree/main/Void%20Hunter)
 
 </div>
 </details>
@@ -106,6 +106,17 @@ FPS, 메트로배니아, 플랫포머, 수집형RPG(UI) 등 여러 장르의 프
     이 경험을 통해 초기 클래스 설계와 역할 분리(플레이어 조작, 플레이어 스탯, 아이템 획득 로직 등)의 중요성을 절감했고,
     차기 프로젝트에서는 FSM(상태 머신) 패턴과 데이터 분리 구조를 적극 도입하는 계기가 되었습니다.
 
+<details>
+<summary><b>[소스 코드] (클릭하여 열기)</b></summary>
+<div markdown="1">
+
+- [Code](https://github.com/sproutedpotato/Portfolio_Unity/tree/main/Scheherazade)
+
+</div>
+</details>
+
+---
+
 ### 3. Front_UI - 수집형 RPG의 가챠, 강화, 인벤토리 등 게임의 핵심 비즈니스 로직과 SQLite 기반 데이터 관리 시스템 구축
 - **구분**: 개인 프로젝트
 - **역할**: Unity 1인 개발
@@ -129,6 +140,17 @@ FPS, 메트로배니아, 플랫포머, 수집형RPG(UI) 등 여러 장르의 프
     인스펙터 직접 할당 방식의 한계를 인지하여, DB에는 에셋 ID값만 저장하고 실행 시 동적 로딩(Resources / Addressables)하는 구조로의 리팩토링 필요성을 깨달았습니다.
     또한 UI 패널과 데이터 간 높은 결합도를 해소하기 위해 Observer 패턴을 활용한 중앙 데이터 매니저 구조의 가치를 정리하는 계기가 되었습니다.
 
+<details>
+<summary><b>[소스 코드] (클릭하여 열기)</b></summary>
+<div markdown="1">
+
+- [Code](https://github.com/sproutedpotato/Portfolio_Unity/tree/main/Front_UI)
+
+</div>
+</details>
+
+---
+
 ### 4. Pixel Adventure - 플레이어의 트로피를 찾는 여
 - **구분**: 개인 프로젝트
 - **역할**: Unity 1인 개발
@@ -151,3 +173,11 @@ FPS, 메트로배니아, 플랫포머, 수집형RPG(UI) 등 여러 장르의 프
     "나중에 리팩토링하면 되겠지"라는 안일한 구현이 결국 코드 결합도를 높이고 기술 부채로 돌아온다는 점을 체감했습니다.
     이를 계기로 개발 전 클래스 간 의존성과 응집도를 고려한 설계 문서화의 필수성을 깊이 깨달았습니다.
 
+<details>
+<summary><b>[소스 코드] (클릭하여 열기)</b></summary>
+<div markdown="1">
+
+- [Code](https://github.com/sproutedpotato/Portfolio_Unity/tree/main/Adventure)
+
+</div>
+</details>
