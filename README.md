@@ -129,6 +129,7 @@ FPS, 메트로배니아, 플랫포머, 수집형RPG(UI) 등 여러 장르의 프
  <img src="Images/2.jpg" width="50%" alt="시작 화면">
  <img src="Images/3.jpg" width="50%" alt="시작 화면">
  <img src="Images/11.gif" width="50%" alt="시작 화면">
+ 
 - **고민한 점 & 배운 점**
   - **[가중치 랜덤 알고리즘 기반 가챠 시스템 구현]**
     단순 단순 난수(Random.Range) 방식의 한계를 극복하고자 각 아이템 등급에 가중치(Weight)를 부여하고,
@@ -151,7 +152,7 @@ FPS, 메트로배니아, 플랫포머, 수집형RPG(UI) 등 여러 장르의 프
 
 ---
 
-### 4. Pixel Adventure - 플레이어의 트로피를 찾는 여
+### 4. Pixel Adventure - 플레이어의 트로피를 찾는 여행
 - **구분**: 개인 프로젝트
 - **역할**: Unity 1인 개발
 - **핵심 기능**
@@ -178,6 +179,40 @@ FPS, 메트로배니아, 플랫포머, 수집형RPG(UI) 등 여러 장르의 프
 <div markdown="1">
 
 - [Code](https://github.com/sproutedpotato/Portfolio_Unity/tree/main/Adventure)
+
+</div>
+</details>
+
+---
+
+### 5. Roll A Ball - 다른 플레이어와 협동하는 2인 플랫포머
+
+- **구분**: 개인 프로젝트
+- **역할**: Unity 1인 개발
+- **기술 스택**: Unity 6, C#, Photon Fusion
+- **핵심 기능**
+  - Photon Fusion을 활용한 자동 세션 생성 및 참가
+  - 두 플레이어가 함께 장애물을 통과하고 목표 지점까지 진행하는 협동 플레이
+  - 플레이어 이동 및 점프, 로비와 게임 진행, 클리어 기능
+  
+ <img src="Images/플레이 002.png" width="50%" alt="플레이 화면">
+ <img src="Images/클리어 001.png" width="50%" alt="클리어 화면">
+ <img src="Images/플레이 003.gif" width="50%" alt="플레이 화면">
+ <img src="Images/플레이 004.gif" width="50%" alt="플레이 화면">
+    
+- **고민한 점 & 배운 점**
+  - **[자동 세션 생성 및 참가 흐름 구현]**
+    플레이어가 직접 호스트나 클라이언트를 선택하지 않아도 접속할 수 있도록 Photon Fusion의 `GameMode.AutoHostOrClient`를 활용했습니다. 이를 통해 세션 생성 및 참가 흐름을 구성하고 자동으로 멀티플레이 세션에 연결되도록 구현했습니다.
+
+  - **[멀티플레이 연결 및 협동 플레이 검증]**
+    빌드한 게임을 직접 실행해 두 플레이어가 동일한 세션에 접속하고, 함께 게임을 진행할 수 있는지 확인했습니다. 실제 실행 환경에서 세션 연결부터 협동 플레이까지 테스트하며 멀티플레이 기능을 검증했습니다.
+
+
+<details>
+<summary><b>[소스 코드] (클릭하여 열기)</b></summary>
+<div markdown="1">
+
+- [Code](https://github.com/sproutedpotato/Portfolio_Unity/tree/main/Roll_A_Ball)
 
 </div>
 </details>
